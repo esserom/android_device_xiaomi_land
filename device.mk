@@ -130,8 +130,13 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0_vendor \
+    mm-qcamera-app \
     camera.msm8937 \
-    GCam
+    libmm-qcamera \
+    libmmcamera_interface \
+    libmmjpeg_interface \
+    libqomx_core \
+    Snap
 
 # Configstore
 PRODUCT_PACKAGES += \
